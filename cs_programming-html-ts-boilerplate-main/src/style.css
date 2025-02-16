@@ -1,0 +1,57 @@
+.grid {
+    margin-top: 5px;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(3,200px);
+    grid-template-columns: repeat(3,200px);
+}
+
+
+.title {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+}
+
+.button span {
+    display: inline-block;
+    opacity: 0;
+    font: bold 56px/1.5 "Roboto", sans-serif;
+}
+
+.reset {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restart {
+    width: 120px;
+    height: 60px;
+    font: bold 20px/1.5 "Roboto", sans-serif;
+}
+
+h2 {
+    font: bold 48px/1.5 "Roboto", sans-serif;
+}
+
+.heading {
+    font: bold 32px/1.5 "Roboto", sans-serif;
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
